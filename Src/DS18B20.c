@@ -142,7 +142,7 @@ void Get_data_temp(void)
 void Indication_temp(void)
 {
 	Get_data_temp();
-	Mode(2); // режим температура
+	Mode(2); // Режим температура
 	ledprint_temp(Temperature * 100);
 }
 
